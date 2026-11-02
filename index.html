@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Casino</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="casino">
+        <h1>♣ LUCKY CASINO ♣</h1>
+        <p class="subtitle">Гравець проти комп'ютера</p>
+
+        <div class="game">
+            <section class="player">
+                <h2 id="playerName">Гравець</h2>
+                <p>Перемоги: <span id="playerScore">0</span>/3</p>
+                <div class="slot" id="playerNumber">?</div>
+            </section>
+
+            <section class="player">
+                <h2>Комп'ютер</h2>
+                <p>Перемоги: <span id="computerScore">0</span>/3</p>
+                <div class="slot" id="computerNumber">?</div>
+            </section>
+        </div>
+
+        <p id="message">Натисніть SPIN для початку гри!</p>
+
+        <button id="spinButton">🎰 SPIN</button>
+        <button id="restartButton">Нова гра</button>
+    </main>
+
+</body>
+</html>
